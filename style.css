@@ -67,6 +67,32 @@ h1 {
     line-height: 1.7;
 }
 
+/* Highlights Section */
+.highlights {
+    margin-bottom: 40px;
+}
+
+.highlights-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.highlights-list li {
+    padding: 0.5rem 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.highlights-list li:before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #0066cc;
+    font-weight: bold;
+}
+
 /* Horizontal Rule */
 hr {
     border: none;
