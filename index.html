@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nitish Kumar - Machine Learning Engineer and Software Developer">
+    <title>Nitish Kumar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nitish Kumar</h1>
+            <p class="subtitle">Machine Learning Engineer</p>
+            <div class="contact">
+                <a href="mailto:nitish.girdhar2@gmail.com">Email</a> /
+                <a href="https://github.com/nitishhrms" target="_blank">GitHub</a> /
+                <a href="https://linkedin.com/in/nitishkumar" target="_blank">LinkedIn</a> /
+                <a href="https://www.researchgate.net/profile/Nitish-Kumar" target="_blank">ResearchGate</a>
+            </div>
+        </header>
+
+        <section class="about">
+            <p>
+                I am a Machine Learning Engineer currently pursuing my M.S. in Computer Software Engineering at
+                San José State University. I specialize in generative AI, diffusion models, and computer vision,
+                with 4 years of industry experience building production ML systems.
+            </p>
+            <p>
+                Previously, I worked as a Software Engineer at Tata Consultancy Services, where I developed backend
+                APIs serving 10,000+ daily users and built ML-powered systems for code analysis. My research focuses
+                on generative models for audio and image synthesis, medical imaging, and self-supervised learning.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Education -->
+        <section class="timeline-section">
+            <h2>Education</h2>
+
+            <div class="timeline-item">
+                <div class="year">2025 – Present</div>
+                <div class="content">
+                    <h3>San José State University</h3>
+                    <p class="role">M.S. in Computer Software Engineering</p>
+                    <p>Focus: Machine Learning, Advanced Algorithms, AI Systems</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="year">2017 – 2021</div>
+                <div class="content">
+                    <h3>Guru Gobind Singh Indraprastha University</h3>
+                    <p class="role">B.Tech in Information Technology (CGPA: 7.8/10)</p>
+                    <p>Relevant Coursework: Machine Learning, Data Structures, Algorithms, Database Systems</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Experience -->
+        <section class="timeline-section">
+            <h2>Experience</h2>
+
+            <div class="timeline-item">
+                <div class="year">2021 – 2025</div>
+                <div class="content">
+                    <h3>Tata Consultancy Services</h3>
+                    <p class="role">Software Engineer, Noida, India</p>
+                    <p>
+                        Developed UI and backend APIs in Spring Boot serving 10,000+ daily users, reducing latency by 30%.
+                        Built a recommender system and JSON/YAML parsers for code vulnerability detection, cutting false
+                        positives by 10%. Implemented microservices architecture and worked with cross-functional teams
+                        on enterprise-scale applications.
+                    </p>
+                    <p class="tech">Technologies: Spring Boot, Java, REST APIs, Microservices, SQL, Docker, Git</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="year">2020</div>
+                <div class="content">
+                    <h3>What After College</h3>
+                    <p class="role">Machine Learning Mentor (Remote)</p>
+                    <p>
+                        Mentored 25+ students in machine learning, neural networks, and CNNs, guiding hands-on Python
+                        implementations. Supervised 10+ computer vision projects in object detection and image classification.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Publications -->
+        <section>
+            <h2>Publications</h2>
+
+            <div class="pub-item">
+                <p class="pub-title">Evaluating Self-Supervised Learning Models for Multi-Label Pathology Detection</p>
+                <p class="pub-venue">2025</p>
+                <p class="pub-desc">
+                    Research on self-supervised learning techniques for automated multi-label pathology detection in medical imaging.
+                </p>
+            </div>
+
+            <div class="pub-item">
+                <p class="pub-title">Enhancing Image Recognition: Leveraging Machine Learning on Medical Datasets</p>
+                <p class="pub-venue">International Conference, 2023</p>
+                <p class="pub-desc">
+                    Comprehensive study on machine learning techniques for improving image recognition accuracy on medical datasets.
+                </p>
+            </div>
+
+            <div class="pub-item">
+                <p class="pub-title">DrowsinessGuard: Driver Safety through Facial Feature Analysis with Deep Learning</p>
+                <p class="pub-venue">2023</p>
+                <p class="pub-desc">
+                    Deep learning system for real-time driver drowsiness detection using facial feature analysis with MTCNN and CNNs.
+                </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Projects -->
+        <section>
+            <h2>Selected Projects</h2>
+
+            <div class="project-item">
+                <h3>Bird Song Generator using Diffusion Models
+                    <a href="https://github.com/nitishhrms/bird-song-generator" class="inline-link" target="_blank">[code]</a>
+                </h3>
+                <p>
+                    Implemented a 60.2M parameter SimpleDiffusion model with U-Net + Transformer architecture achieving
+                    9/10 quality for bird audio synthesis. Outperformed WaveGAN by 2.5× and VAE by 1.6× in perceptual
+                    metrics (MCD: 5.23 dB, Inception Score: 3.89). Achieved 100% training stability vs 30% for GANs,
+                    eliminating mode collapse. Processed 9,595 audio samples into mel-spectrograms and deployed DDIM
+                    sampling for 10× speedup.
+                </p>
+                <p class="tech">PyTorch, Diffusion Models (DDPM/DDIM), Transformers, U-Net, Audio Processing</p>
+            </div>
+
+            <div class="project-item">
+                <h3>PixelGen: Text-to-Image Synthesis
+                    <a href="https://github.com/nitishhrms/pixelgen" class="inline-link" target="_blank">[code]</a>
+                    <a href="#" class="inline-link">[demo]</a>
+                </h3>
+                <p>
+                    Built a text-to-image synthesis pipeline using CLIP transformer and Dynamic U-Net. Improved SSIM
+                    by 12% on 25,000 image-text pairs. Optimized noise prediction algorithm, improving visual quality
+                    by 20% and reducing inference time by 17%. Deployed live demo with real-time generation capabilities.
+                </p>
+                <p class="tech">PyTorch, CLIP Transformer, Dynamic U-Net, Hugging Face Transformers</p>
+            </div>
+
+            <div class="project-item">
+                <h3>Fracture Detection with DETR
+                    <a href="https://github.com/nitishhrms/fracture-detection" class="inline-link" target="_blank">[code]</a>
+                    <a href="#" class="inline-link">[demo]</a>
+                </h3>
+                <p>
+                    Created a fracture detection model using Detection Transformer (DETR), boosting accuracy from 82% to
+                    98% on 15,000 X-ray images. Used cyclic learning rate scheduling to cut training time by 15%.
+                    Achieved clinical-grade accuracy suitable for medical deployment with end-to-end object detection
+                    without anchor boxes.
+                </p>
+                <p class="tech">PyTorch, DETR, Computer Vision, Medical Imaging, Transfer Learning</p>
+            </div>
+
+            <div class="project-item">
+                <h3>Image Caption Generation for Medical X-rays</h3>
+                <p>
+                    Implemented BLIP transformer for automated caption generation from medical X-ray images. Fine-tuned
+                    pre-trained vision-language models for medical domain adaptation. Achieved coherent, clinically
+                    relevant descriptions for diagnostic assistance.
+                </p>
+                <p class="tech">PyTorch, BLIP Transformer, Vision-Language Models, Medical AI</p>
+            </div>
+
+            <div class="project-item">
+                <h3>Fashion Fusion: Apparel Classification</h3>
+                <p>
+                    Built a fashion classification system using FastAI achieving 95% accuracy on apparel categorization.
+                    Implemented data augmentation and transfer learning from ResNet architectures. Deployed as a web
+                    application with real-time inference.
+                </p>
+                <p class="tech">FastAI, PyTorch, ResNet, Transfer Learning, Flask</p>
+            </div>
+
+            <div class="project-item">
+                <h3>Doom Conquerors: Reinforcement Learning Agent</h3>
+                <p>
+                    Developed an RL agent using Proximal Policy Optimization (PPO) to play the classic Doom game.
+                    Trained neural network policies for autonomous gameplay with reward shaping and environment
+                    interaction strategies.
+                </p>
+                <p class="tech">PyTorch, PPO, Reinforcement Learning, OpenAI Gym</p>
+            </div>
+
+            <div class="project-item">
+                <h3>DAG FlowNet: Graph Management System</h3>
+                <p>
+                    Built a full-stack application for managing directed acyclic graphs (DAGs) with interactive
+                    visualization. Implemented graph algorithms for cycle detection, topological sorting, and path
+                    finding. Designed RESTful API backend with MongoDB persistence.
+                </p>
+                <p class="tech">MERN Stack (MongoDB, Express, React, Node.js), D3.js, Graph Algorithms</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Technical Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <p><strong>Programming Languages:</strong> Python, C++, Java, JavaScript, SQL</p>
+                </div>
+                <div class="skill-category">
+                    <p><strong>ML/AI Frameworks:</strong> PyTorch, TensorFlow, Keras, Scikit-Learn, Hugging Face Transformers, FastAI</p>
+                </div>
+                <div class="skill-category">
+                    <p><strong>ML Techniques:</strong> Diffusion Models (DDPM/DDIM), GANs, VAEs, Transformers (CLIP, DETR, BLIP),
+                    CNNs, Computer Vision, NLP, Reinforcement Learning (PPO), Self-Supervised Learning, Transfer Learning</p>
+                </div>
+                <div class="skill-category">
+                    <p><strong>Backend & Web:</strong> Spring Boot, Flask, REST APIs, Microservices, Node.js, Express</p>
+                </div>
+                <div class="skill-category">
+                    <p><strong>Tools & Cloud:</strong> Docker, Git, CI/CD, JIRA, AWS, Linux, MongoDB, SQL</p>
+                </div>
+                <div class="skill-category">
+                    <p><strong>Data Science:</strong> NumPy, Pandas, OpenCV, Matplotlib, Seaborn, Data Preprocessing,
+                    Audio/Signal Processing</p>
+                </div>
+                <div class="skill-category">
+                    <p><strong>Core CS:</strong> Data Structures & Algorithms (500+ problems solved), Object-Oriented Programming,
+                    System Design, Agile/Scrum</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Training & Certifications -->
+        <section>
+            <h2>Training & Certifications</h2>
+
+            <div class="timeline-item">
+                <div class="year">2021</div>
+                <div class="content">
+                    <h3>Data Structures and Algorithms</h3>
+                    <p class="role">Pepcoding</p>
+                    <p>
+                        Mastered core-to-advanced data structures (arrays, trees, graphs, dynamic programming) and
+                        Object-Oriented Programming in C++. Solved 500+ problems on LeetCode and GeeksforGeeks.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="year">2019</div>
+                <div class="content">
+                    <h3>Deep Learning and Advanced Machine Learning</h3>
+                    <p class="role">KeenSmartz</p>
+                    <p>
+                        Completed intensive training covering 15+ ML/DL algorithms. Implemented 10+ projects in computer
+                        vision and NLP, including object detection, image segmentation, and GAN-based models.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                This website is intentionally minimal, following the philosophy of content over decoration.
+                Built with pure HTML and CSS—no frameworks, no JavaScript bloat.
+            </p>
+            <p class="footer-links">
+                <a href="mailto:nitish.girdhar2@gmail.com">Email</a> /
+                <a href="https://github.com/nitishhrms" target="_blank">GitHub</a> /
+                <a href="https://linkedin.com/in/nitishkumar" target="_blank">LinkedIn</a> /
+                <a href="https://www.researchgate.net/profile/Nitish-Kumar" target="_blank">ResearchGate</a>
+            </p>
+            <p class="copyright">&copy; 2026 Nitish Kumar</p>
+        </footer>
+    </div>
+</body>
+</html>
